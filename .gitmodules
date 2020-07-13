@@ -1,0 +1,3 @@
+[submodule "Seminars/ReID_tutorial_slides"]
+	path = Seminars/ReID_tutorial_slides
+	url = https://github.com/michuanhaohao/ReID_tutorial_slides.git
