@@ -1,4 +1,1 @@
-# Papers
-This is a repo for relevant papers.
-
-Feel free to upload papers here, and reference it in discussions and projects.
+## Please refer to [Papers](Papers/), [Codes](Codes/), [Seminars](Seminars/) for more details.
