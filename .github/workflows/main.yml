@@ -26,8 +26,14 @@ jobs:
     - name: Run render script
       run: python3 ".github/workflows/render.py"
 
-    # Runs a set of commands using the runners shell
-    - name: save changes and commit
-      run: |
-        echo Add other actions to build,
-        echo test, and deploy your project.
+    # Commit changes
+    - name: Commit changes
+      uses: EndBug/add-and-commit@v4
+      with:
+        author_name: Xiaosu Zhu
+        author_email: xiaosu.zhu@outlook.com
+        message: "Auto render README.md via Github Actions"
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
