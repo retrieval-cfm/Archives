@@ -24,7 +24,7 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: Run render script
-      run: python ".github/workflows/render.py"
+      run: python3 ".github/workflows/render.py"
 
     # Runs a set of commands using the runners shell
     - name: save changes and commit
