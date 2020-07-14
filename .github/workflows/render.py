@@ -19,16 +19,16 @@ def appendNodes(root: str, rootNode: Node):
         else:
             rootNode.files.append(path)
 
-def renderItem(dirPath: str, fileName: str):
+def renderItem(fileName: str):
     paperName = fileName.split(".")[0].split("]")[-1]
-    result =  f"* [{paperName}]({urllib.parse.quote(os.path.join(dirPath, fileName))})"
+    result =  f"* [{paperName}]({urllib.parse.quote(fileName)})"
     if os.path.exists(os.path.join("Codes", paperName)):
         result += f"  [*Code*]({os.path.join('Codes', paperName)})"
     return result
 
 def renderTOC(node: Node, level: int):
     a = f"{'#' * (level + 1)} {node.name}\r\n"
-    a += "\r\n".join(renderItem(node.fullPath, x) for x in node.files)
+    a += "\r\n".join(renderItem(x) for x in node.files)
     a += "\r\n"
     for i in node.dirs:
         a += renderTOC(i, level + 1)
