@@ -1,8 +1,8 @@
 ![Auto Render README.md](https://github.com/retrieval-cfm/Archives/workflows/Auto%20Render%20README.md/badge.svg)
 
-**NOTE**: Push and/or merge from pull requests will trigger to render this TOC automatically.
+**NOTE**: *Push* or merge from *Pull Requests* will trigger to render this TOC automatically.
 
-# Table of Contents
+**Please refer to [format guideline](GUIDE.md) to arrange files correctly.# Table of Contents
 ## Papers
 
 ### Quantization
