@@ -37,6 +37,9 @@ def renderTOC(node: Node, level: int):
 if __name__ == "__main__":
     rootNode = Node("Papers", "Papers")
     appendNodes("Papers", rootNode)
-    results = renderTOC(rootNode, 0)
+    results = renderTOC(rootNode, 1)
     with open("README.md", "w") as fp:
+        fp.write("![AutoRenderREADME](https://github.com/retrieval-cfm/Archives/workflows/AutoRenderREADME/badge.svg)\r\n\r\n")
+        fp.write("*NOTE*: Push and/or merge from pull requests will trigger to render this TOC automatically.\r\n\r\n")
+        fp.write("# Table of Contents")
         fp.write(results)
