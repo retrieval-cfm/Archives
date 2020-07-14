@@ -1,4 +1,4 @@
-![AutoRenderREADME](https://github.com/retrieval-cfm/Archives/workflows/AutoRenderREADME/badge.svg)
+![Auto Render README.md](https://github.com/retrieval-cfm/Archives/workflows/Auto%20Render%20README.md/badge.svg)
 
 **NOTE**: Push and/or merge from pull requests will trigger to render this TOC automatically.
 
