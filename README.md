@@ -16,7 +16,7 @@
 * [Unsupervised Neural Quantization](Papers/Quantization/%5B19%20ECCV%5DUnsupervised%20Neural%20Quantization.pdf)
 * [Polysemous Codes](Papers/Quantization/%5B16%20ECCV%5DPolysemous%20Codes.pdf)
 * [LSQ++](Papers/Quantization/%5B18%20ECCV%5DLSQ%2B%2B.pdf)
-* [LSQ](Papers/Quantization/%5B16%20ECCV%5DLSQ.pdf)
+* [LSQ](Papers/Quantization/%5B16%20ECCV%5DLSQ.pdf)  [*Code*](Codes/LSQ)
 * [Cartesian K-Means](Papers/Quantization/%5B13%20CVPR%5DCartesian%20K-Means.pdf)
 ### Theory
 * [Understanding Sparse JL for Feature Hashing](Papers/Theory/%5B19%20NIPS%5DUnderstanding%20Sparse%20JL%20for%20Feature%20Hashing.pdf)
