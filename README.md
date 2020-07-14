@@ -1,8 +1,9 @@
 ![AutoRenderREADME](https://github.com/retrieval-cfm/Archives/workflows/AutoRenderREADME/badge.svg)
 
-*NOTE*: Push and/or merge from pull requests will trigger to render this TOC automatically.
+**NOTE**: Push and/or merge from pull requests will trigger to render this TOC automatically.
 
-# Table of Contents## Papers
+# Table of Contents
+## Papers
 
 ### Quantization
 * [Optimized Product Quantization for Approximate Nearest Neighbor Search](Papers/Quantization/%5B13%20TPAMI%5DOptimized%20Product%20Quantization%20for%20Approximate%20Nearest%20Neighbor%20Search.pdf)
