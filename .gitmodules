@@ -1,7 +1,6 @@
-[submodule "ReID_tutorial_slides"]
-	path = Tutorials/Person ReID/ReID_tutorial_slides
+[submodule ".\\Tutorials\\Person ReID\\Tutorial Slides"]
+	path = .\\Tutorials\\Person ReID\\Tutorial Slides
 	url = https://github.com/michuanhaohao/ReID_tutorial_slides.git
-
-[submodule "LSQ"]
-	path = Codes/LSQ
+[submodule ".\\Codes\\LSQ"]
+	path = .\\Codes\\LSQ
 	url = https://github.com/una-dinosauria/local-search-quantization.git
