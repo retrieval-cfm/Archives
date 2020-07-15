@@ -13,7 +13,7 @@
 * 2013 - [Cartesian K-Means](Papers/Quantization/%5B13%20CVPR%5DCartesian%20K-Means.pdf)
 * 2014 - [Composite Quantization](Papers/Quantization/%5B14%20ICML%5DComposite%20Quantization.pdf)
 * 2016 - [Polysemous Codes](Papers/Quantization/%5B16%20ECCV%5DPolysemous%20Codes.pdf)
-* 2016 - [**[Code]**](Codes/LSQ) [LSQ](Papers/Quantization/%5B16%20ECCV%5DLSQ.pdf)
+* 2016 - [**[Code]**](https://github.com/una-dinosauria/local-search-quantization.git) [LSQ](Papers/Quantization/%5B16%20ECCV%5DLSQ.pdf)
 * 2018 - [Product Quantization Network](Papers/Quantization/%5B18%20ECCV%5DProduct%20Quantization%20Network.pdf)
 * 2018 - [A Biresolution Spectral framework for Product Quantization](Papers/Quantization/%5B18%20CVPR%5DA%20Biresolution%20Spectral%20framework%20for%20Product%20Quantization.pdf)
 * 2018 - [LSQ++](Papers/Quantization/%5B18%20ECCV%5DLSQ%2B%2B.pdf)
