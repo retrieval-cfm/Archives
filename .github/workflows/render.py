@@ -8,7 +8,35 @@ class Node(object):
         self.name = name
         self.dirs = list()
         self.files = list()
+def getAllSubmodules():
+    modules = { }
+    with open(".gitmodules", "r") as fp:
+        lines = fp.readlines()
+        i = 0
+        while True:
+            if lines[i].startswith("[submodule"):
+                value = None
+                flag = True
+                key = None
+                while flag:
+                    i += 1
+                    if lines[i].strip().startswith("path"):
+                        splits = lines[i].strip().split('=')[1:]
+                        key = "".join(splits).strip()
+                    elif lines[i].strip().startswith("url"):
+                        splits = lines[i].strip().split('=')[1:]
+                        value = "".join(splits).strip()
+                    else:
+                        raise Exception(f"Unexpected keys appeared. got {lines[i]}")
+                    if key is not None and value is not None:
+                        flag = False
+                modules[key] = value
+                i += 1
+                if i >= len(lines):
+                    break
+        return modules
 
+allSubmodules = getAllSubmodules()
 
 def appendNodes(root: str, rootNode: Node):
     for item in os.listdir(root):
@@ -19,6 +47,13 @@ def appendNodes(root: str, rootNode: Node):
             appendNodes(path, newNode)
         else:
             rootNode.files.append(path)
+
+def determineIfSubmodule(path: str):
+    if path.startswith("./"):
+        path = path[2:]
+    if path in allSubmodules:
+        return allSubmodules[path]
+    return path
 
 def renderSinglePaper(fileName: str):
     paperName = fileName.split(".")[0].split("]")[-1]
@@ -31,7 +66,8 @@ def renderSinglePaper(fileName: str):
         year += prefix
     result = f"* {year} - "
     if os.path.exists(os.path.join("Codes", paperName)):
-        result += f"[**[Code]**]({os.path.join('Codes', paperName)}) "
+        codePath = determineIfSubmodule(os.path.join("Codes", paperName))
+        result += f"[**[Code]**]({codePath}) "
     result +=  f"[{paperName}]({urllib.parse.quote(fileName)})"
     return result, year
 
