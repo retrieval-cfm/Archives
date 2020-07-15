@@ -1,3 +1,0 @@
-# Seminars
-
-Archives for presentation.
