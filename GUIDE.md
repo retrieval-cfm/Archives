@@ -21,7 +21,7 @@ If the code is independent with any papers, the only need is put it into correct
 
 * Examples:
 
-[LSQ](Codes) is a `git submodule` which points to [this repo](https://github.com/una-dinosauria/local-search-quantization), while [LSQ-Python](Codes/Quantization) is a `git submodule` which is put in the `Quantization` sub-dir, indicating it is a paper-indepedent work.
+[LSQ](Codes) is a `git submodule` which points to [this repo](https://github.com/una-dinosauria/local-search-quantization), while [LSQ-python](Codes/Quantization) is a `git submodule` which is put in the `Quantization` sub-dir, indicating it is a paper-indepedent work.
 
 
 #### Tutorials

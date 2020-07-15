@@ -4,3 +4,6 @@
 [submodule "Codes/LSQ"]
 	path = Codes/LSQ
 	url = https://github.com/una-dinosauria/local-search-quantization.git
+[submodule "Codes/Quantization/LSQ-python"]
+	path = Codes/Quantization/LSQ-python
+	url = https://github.com/xiaosu-zhu/LSQ-python.git
