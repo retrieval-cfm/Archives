@@ -23,6 +23,9 @@
 ## Theory
 * 2019 - [Understanding Sparse JL for Feature Hashing](Papers/Theory/%5B19%20NIPS%5DUnderstanding%20Sparse%20JL%20for%20Feature%20Hashing.pdf)
 * 2019 - [Random Projections with Asymmetric Quantization](Papers/Theory/%5B19%20NIPS%5DRandom%20Projections%20with%20Asymmetric%20Quantization.pdf)
+## ANN Search
+* 2019 - [Fast Approximate Nearest Neighbor Search with the Navigating Spreading-out Graph](Papers/ANN%20Search/%5B19%20PVLDB%5DFast%20Approximate%20Nearest%20Neighbor%20Search%20with%20the%20Navigating%20Spreading-out%20Graph.pdf)
+* 2019 - [Graph-based Nearest Neighbor Search-From Practice to Theory](Papers/ANN%20Search/%5B19%20Survey%5DGraph-based%20Nearest%20Neighbor%20Search-From%20Practice%20to%20Theory.pdf)
 ## Combinatorial Optimization
 * 2015 - [Pointer Networks](Papers/Combinatorial%20Optimization/%5B15%20NIPS%5DPointer%20Networks.pdf)
 * 2017 - [Neural Combinatorial Optimization with Reinforcement Learning](Papers/Combinatorial%20Optimization/%5B17%20ICLR%5DNeural%20Combinatorial%20Optimization%20with%20Reinforcement%20Learning.pdf)
