@@ -124,7 +124,7 @@ if __name__ == "__main__":
     with open("README.md", "w") as fp:
         fp.write("![Auto Render README.md](https://github.com/retrieval-cfm/Archives/workflows/Auto%20Render%20README.md/badge.svg)\r\n\r\n")
         fp.write("**NOTE**: *Push* or merge from *Pull Requests* will trigger to render this TOC automatically.\r\n\r\n")
-        fp.write("**Please refer to [format guideline](GUIDE.md) to arrange files correctly**.\r\n\r\n")
+        fp.write("**Please refer to [formatting guideline](GUIDE.md) to arrange files correctly**.\r\n\r\n")
         fp.write("# Table of Contents\r\n")
         
         rootNode = Node("Papers", "Papers")
