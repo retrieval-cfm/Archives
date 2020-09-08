@@ -2,7 +2,7 @@
 
 **NOTE**: *Push* or merge from *Pull Requests* will trigger to render this TOC automatically.
 
-**Please refer to [format guideline](GUIDE.md) to arrange files correctly**.
+**Please refer to [formatting guideline](GUIDE.md) to arrange files correctly**.
 
 # Table of Contents
 # Papers
